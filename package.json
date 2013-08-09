@@ -1,0 +1,19 @@
+{
+  "name": "stream-reduce",
+  "version": "0.0.0",
+  "description": "Reduce stream data to a single value",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:parshap/node-stream-reduce.git"
+  },
+  "keywords": [
+    "stream",
+    "reduce"
+  ],
+  "author": "Parsha Pourkhomami",
+  "license": "Public Domain"
+}
