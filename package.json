@@ -18,5 +18,8 @@
   "license": "Public Domain",
   "devDependencies": {
     "tape": "~1.0.4"
+  },
+  "dependencies": {
+    "through": "~2.3.4"
   }
 }
