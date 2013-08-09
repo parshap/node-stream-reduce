@@ -4,7 +4,7 @@
   "description": "Reduce stream data to a single value",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
     "reduce"
   ],
   "author": "Parsha Pourkhomami",
-  "license": "Public Domain"
+  "license": "Public Domain",
+  "devDependencies": {
+    "tape": "~1.0.4"
+  }
 }
