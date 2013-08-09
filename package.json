@@ -1,6 +1,6 @@
 {
   "name": "stream-reduce",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Reduce stream data to a single value",
   "main": "index.js",
   "scripts": {
