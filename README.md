@@ -1,8 +1,12 @@
 # stream-reduce
 
 Reduce stream data to a single value. Like
-[Array#reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
-but for streams!
+[Array#reduce]but for streams!
+
+Like [`Array.prototype.reduce`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+but for streams. Given a sync reduce function and an initial value it
+will return a through stream that emits a single data event with the
+reduced value once the input stream ends.
 
 # Example
 
