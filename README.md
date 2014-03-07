@@ -17,7 +17,7 @@ process.stdin.pipe(reduce(function(acc, data) {
 });
 ```
 
-# Installation 
+# Installation
 
 ```
 npm install stream-reduce
